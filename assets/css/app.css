@@ -1,0 +1,105 @@
+/* line 106, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 125%;
+  line-height: 1.6em;
+}
+
+/* line 5, ../sass/_base.scss */
+body {
+  background: #f5f5f5;
+  max-width: 60rem;
+  margin: 0 auto;
+  color: #333;
+}
+
+/* line 11, ../sass/_base.scss */
+header {
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+  border-top-width: 0.3rem;
+  border-top-style: solid;
+  padding-top: 1.3rem;
+  border-bottom-width: 0.3rem;
+  border-bottom-style: solid;
+  padding-bottom: 1.3rem;
+  border-color: #FF3149;
+}
+/* line 18, ../sass/_base.scss */
+header > h1 {
+  color: #FF3149;
+}
+
+/* line 22, ../sass/_base.scss */
+main {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 24, ../sass/_base.scss */
+main .left {
+  float: left;
+  width: 60%;
+}
+/* line 28, ../sass/_base.scss */
+main .right {
+  float: right;
+  width: 35%;
+}
+
+/* line 33, ../sass/_base.scss */
+footer {
+  border-top-width: 0.1rem;
+  border-top-style: solid;
+  padding-top: 1.5rem;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+  border-color: #e6e6e6;
+}
+
+/* line 10, ../sass/_typomatic.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 1.6rem;
+  font-weight: 800;
+}
+
+/* line 15, ../sass/_typomatic.scss */
+h1 {
+  font-size: 2.45rem;
+  line-height: 3.2rem;
+}
+
+/* line 18, ../sass/_typomatic.scss */
+h2 {
+  font-size: 1.95rem;
+  line-height: 2.8rem;
+}
+
+/* line 21, ../sass/_typomatic.scss */
+h3 {
+  font-size: 1.55rem;
+  line-height: 2.4rem;
+}
+
+/* line 24, ../sass/_typomatic.scss */
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+}
+
+/* line 27, ../sass/_typomatic.scss */
+h5 {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+/* line 32, ../sass/_typomatic.scss */
+p {
+  margin-bottom: 1.6rem;
+  font-family: Georgia, Times, sans-serif;
+}
+
+/* line 38, ../sass/_typomatic.scss */
+small {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
