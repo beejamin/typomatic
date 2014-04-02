@@ -38,3 +38,18 @@ p {
 small {
 	@include type-scale(small);
 }
+
+// Anchors
+a {
+	color: #FF3149;
+	text-decoration: none;
+	&:hover, &:focus {
+		color: #2AEFFF;
+	}
+	&:focus {
+		outline: 0;
+	}
+	&:active {
+		color: darken(#2AEFFF, 10%);
+	}
+}

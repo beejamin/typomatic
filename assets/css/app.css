@@ -12,9 +12,10 @@ body {
   padding: 0 5rem 0 5rem;
   margin: 0 auto;
   color: #333;
+  font-family: Georgia, Times, sans-serif;
 }
 
-/* line 13, ../sass/_base.scss */
+/* line 14, ../sass/_base.scss */
 header {
   margin-top: 6.4rem;
   margin-bottom: 6.4rem;
@@ -26,28 +27,28 @@ header {
   padding-bottom: 1.3rem;
   border-color: #FF3149;
 }
-/* line 20, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 header > h1 {
   color: #FF3149;
 }
 
-/* line 24, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 main {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 26, ../sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 main .left {
   float: left;
   width: 60%;
 }
-/* line 30, ../sass/_base.scss */
+/* line 31, ../sass/_base.scss */
 main .right {
   float: right;
   width: 35%;
 }
 
-/* line 35, ../sass/_base.scss */
+/* line 36, ../sass/_base.scss */
 footer {
   border-top-width: 0.1rem;
   border-top-style: solid;
@@ -104,4 +105,22 @@ p {
 small {
   font-size: 0.8rem;
   line-height: 1.2rem;
+}
+
+/* line 43, ../sass/_typomatic.scss */
+a {
+  color: #FF3149;
+  text-decoration: none;
+}
+/* line 46, ../sass/_typomatic.scss */
+a:hover, a:focus {
+  color: #2AEFFF;
+}
+/* line 49, ../sass/_typomatic.scss */
+a:focus {
+  outline: 0;
+}
+/* line 52, ../sass/_typomatic.scss */
+a:active {
+  color: #00e4f6;
 }
