@@ -3,6 +3,9 @@
 
 Typomatic uses Compass Vertical Rhythm module and Sass Maps to give a flexible solution for handling type scale on a project. 
 
+## Demo
+A demo is available, just download the package and open *index.html* file in your favourite browser. 
+
 ## Config
 The *_config.scss* file holds the Sass Maps with the type scale and type weight values. Use it to modify the scale to match your project. 
 
