@@ -1,4 +1,4 @@
-/* line 106, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, C:\Ruby193\lib\ruby\gems\1.9.1\gems\compass-core-1.0.0.alpha.19\stylesheets\compass\typography\_vertical_rhythm.scss */
 html {
   font-size: 125%;
   line-height: 1.6em;
@@ -58,69 +58,70 @@ footer {
   border-color: #e6e6e6;
 }
 
-/* line 10, ../sass/_typomatic.scss */
+/* line 13, ../sass/_typomatic.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+  font-weight: 900;
   margin-bottom: 1.6rem;
-  font-weight: 800;
 }
 
-/* line 15, ../sass/_typomatic.scss */
+/* line 19, ../sass/_typomatic.scss */
 h1 {
   font-size: 2.45rem;
   line-height: 3.2rem;
 }
 
-/* line 18, ../sass/_typomatic.scss */
+/* line 22, ../sass/_typomatic.scss */
 h2 {
   font-size: 1.95rem;
   line-height: 2.4rem;
 }
 
-/* line 21, ../sass/_typomatic.scss */
+/* line 25, ../sass/_typomatic.scss */
 h3 {
   font-size: 1.55rem;
-  line-height: 1.6rem;
+  line-height: 2.4rem;
 }
 
-/* line 24, ../sass/_typomatic.scss */
+/* line 28, ../sass/_typomatic.scss */
 h4 {
   font-size: 1.25rem;
   line-height: 1.6rem;
 }
 
-/* line 27, ../sass/_typomatic.scss */
+/* line 31, ../sass/_typomatic.scss */
 h5 {
   font-size: 1rem;
   line-height: 1.6rem;
 }
 
-/* line 32, ../sass/_typomatic.scss */
+/* line 36, ../sass/_typomatic.scss */
 p {
   margin-bottom: 1.6rem;
   font-family: Georgia, Times, sans-serif;
 }
 
-/* line 38, ../sass/_typomatic.scss */
+/* line 42, ../sass/_typomatic.scss */
 small {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
-/* line 43, ../sass/_typomatic.scss */
+/* line 47, ../sass/_typomatic.scss */
 a {
   color: #FF3149;
   text-decoration: none;
 }
-/* line 46, ../sass/_typomatic.scss */
+/* line 50, ../sass/_typomatic.scss */
 a:hover, a:focus {
   color: #2AEFFF;
 }
-/* line 49, ../sass/_typomatic.scss */
+/* line 53, ../sass/_typomatic.scss */
 a:focus {
   outline: 0;
 }
-/* line 52, ../sass/_typomatic.scss */
+/* line 56, ../sass/_typomatic.scss */
 a:active {
   color: #00e4f6;
 }

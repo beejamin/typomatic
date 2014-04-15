@@ -1,55 +1,59 @@
 // A mixin for scaling type that utilises the $type-scale map with the predefined values
 
 @mixin type-scale($scale, $map: $type-scale) {
-	$font-size: map-fetch($map, $scale font-size);
-	$base-lines: map-fetch($map, $scale base-lines);
-	@include adjust-font-size-to($font-size, $base-lines);
+    $font-size: map-fetch($map, $scale font-size);
+    $base-lines: map-fetch($map, $scale base-lines);
+    @include adjust-font-size-to($font-size, $base-lines);
+}
+@mixin type-weight($weight) {
+    font-weight: map-get($type-weight, $weight);
 }
 
 // Headings
 #{h1, h2, h3, h4, h5} {
-	font-family: $base-font-family;
-	@include margin-trailer(1);
-	font-weight: 800;
+    font-family: $base-font-family;
+    margin-top: 0;
+    @include type-weight(black);
+    @include margin-trailer(1);
 }
 h1 {
-	@include type-scale(xxlarge);
+    @include type-scale(xxlarge);
 }
 h2 {
-	@include type-scale(xlarge);
+    @include type-scale(xlarge);
 }
 h3 {
-	@include type-scale(large);
+    @include type-scale(large);
 }
 h4 {
-	@include type-scale(medium);
+    @include type-scale(medium);
 }
 h5 {
-	@include type-scale(base);
+    @include type-scale(base);
 }
 
 // Paragraphs
 p {
-	@include margin-trailer(1);
-	font-family: $alt-font-family;
+    @include margin-trailer(1);
+    font-family: $alt-font-family;
 }
 
 // Small
 small {
-	@include type-scale(small);
+    @include type-scale(small);
 }
 
 // Anchors
 a {
-	color: #FF3149;
-	text-decoration: none;
-	&:hover, &:focus {
-		color: #2AEFFF;
-	}
-	&:focus {
-		outline: 0;
-	}
-	&:active {
-		color: darken(#2AEFFF, 10%);
-	}
+    color: #FF3149;
+    text-decoration: none;
+    &:hover, &:focus {
+        color: #2AEFFF;
+    }
+    &:focus {
+        outline: 0;
+    }
+    &:active {
+        color: darken(#2AEFFF, 10%);
+    }
 }
