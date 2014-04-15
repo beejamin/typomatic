@@ -9,12 +9,22 @@
     font-weight: map-get($type-weight, $weight);
 }
 
+// A quick ligature mixin, to be updated with a more modular one
+@mixin type-ligatures() {
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -ms-font-feature-settings: "liga", "dlig";
+    -webkit-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";
+}
+
 // Headings
 #{h1, h2, h3, h4, h5} {
     font-family: $base-font-family;
     margin-top: 0;
     @include type-weight(black);
     @include margin-trailer(1);
+    @include type-ligatures;
 }
 h1 {
     @include type-scale(xxlarge);
@@ -37,6 +47,7 @@ p {
     @include margin-trailer(1);
     @include word-break(break-word);
     @include hyphens(auto);
+    @include type-ligatures;
     font-family: $alt-font-family;
 }
 

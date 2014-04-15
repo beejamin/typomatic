@@ -58,45 +58,50 @@ footer {
   border-color: #e6e6e6;
 }
 
-/* line 13, ../sass/_typomatic.scss */
+/* line 22, ../sass/_typomatic.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
   font-weight: 900;
   margin-bottom: 1.6rem;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
 }
 
-/* line 19, ../sass/_typomatic.scss */
+/* line 29, ../sass/_typomatic.scss */
 h1 {
   font-size: 2.45rem;
   line-height: 3.2rem;
 }
 
-/* line 22, ../sass/_typomatic.scss */
+/* line 32, ../sass/_typomatic.scss */
 h2 {
   font-size: 1.95rem;
   line-height: 2.4rem;
 }
 
-/* line 25, ../sass/_typomatic.scss */
+/* line 35, ../sass/_typomatic.scss */
 h3 {
   font-size: 1.55rem;
   line-height: 2.4rem;
 }
 
-/* line 28, ../sass/_typomatic.scss */
+/* line 38, ../sass/_typomatic.scss */
 h4 {
   font-size: 1.25rem;
   line-height: 1.6rem;
 }
 
-/* line 31, ../sass/_typomatic.scss */
+/* line 41, ../sass/_typomatic.scss */
 h5 {
   font-size: 1rem;
   line-height: 1.6rem;
 }
 
-/* line 36, ../sass/_typomatic.scss */
+/* line 46, ../sass/_typomatic.scss */
 p {
   margin-bottom: 1.6rem;
   word-break: break-word;
@@ -104,29 +109,34 @@ p {
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga", "dlig";
+  -webkit-font-feature-settings: "liga", "dlig";
+  -o-font-feature-settings: "liga", "dlig";
+  font-feature-settings: "liga", "dlig";
   font-family: Georgia, Times, sans-serif;
 }
 
-/* line 44, ../sass/_typomatic.scss */
+/* line 55, ../sass/_typomatic.scss */
 small {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
-/* line 49, ../sass/_typomatic.scss */
+/* line 60, ../sass/_typomatic.scss */
 a {
   color: #FF3149;
   text-decoration: none;
 }
-/* line 52, ../sass/_typomatic.scss */
+/* line 63, ../sass/_typomatic.scss */
 a:hover, a:focus {
   color: #2AEFFF;
 }
-/* line 55, ../sass/_typomatic.scss */
+/* line 66, ../sass/_typomatic.scss */
 a:focus {
   outline: 0;
 }
-/* line 58, ../sass/_typomatic.scss */
+/* line 69, ../sass/_typomatic.scss */
 a:active {
   color: #00e4f6;
 }
