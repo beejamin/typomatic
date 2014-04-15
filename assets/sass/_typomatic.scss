@@ -35,6 +35,7 @@ h5 {
 // Paragraphs
 p {
     @include margin-trailer(1);
+    @include hyphenation;
     font-family: $alt-font-family;
 }
 
