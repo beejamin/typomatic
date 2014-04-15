@@ -3,9 +3,12 @@
 
 Typomatic uses Compass Vertical Rhythm module and Sass Maps to give a flexible solution for handling type scale on a project. 
 
+## Config
+The *_config.scss* file holds the Sass Maps with the type scale and type weight values. Use it to modify the scale to match your project. 
+
 ## Mixins
 ### type-scale
-The scale is defined in the *$type-scale* Sass Map type sizes defined in the *config.scss* file. 
+The scale is defined in the *$type-scale* Sass Map type sizes defined in the *_config.scss* file. 
 
 Mixin arguments:
 
@@ -19,7 +22,7 @@ The map argument takes a map defined in the *$type-scale* map, usefull if you ha
 
 
 ### type-weight
-The weights are defined in the *$type-weight* Sass Map type sizes defined in the *config.scss* file. 
+The weights are defined in the *$type-weight* Sass Map type sizes defined in the *_config.scss* file. 
 
 Arguments:
 
