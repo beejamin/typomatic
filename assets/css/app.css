@@ -99,7 +99,6 @@ h5 {
 /* line 36, ../sass/_typomatic.scss */
 p {
   margin-bottom: 1.6rem;
-  word-break: break-all;
   word-break: break-word;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -108,26 +107,26 @@ p {
   font-family: Georgia, Times, sans-serif;
 }
 
-/* line 43, ../sass/_typomatic.scss */
+/* line 44, ../sass/_typomatic.scss */
 small {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
 
-/* line 48, ../sass/_typomatic.scss */
+/* line 49, ../sass/_typomatic.scss */
 a {
   color: #FF3149;
   text-decoration: none;
 }
-/* line 51, ../sass/_typomatic.scss */
+/* line 52, ../sass/_typomatic.scss */
 a:hover, a:focus {
   color: #2AEFFF;
 }
-/* line 54, ../sass/_typomatic.scss */
+/* line 55, ../sass/_typomatic.scss */
 a:focus {
   outline: 0;
 }
-/* line 57, ../sass/_typomatic.scss */
+/* line 58, ../sass/_typomatic.scss */
 a:active {
   color: #00e4f6;
 }
