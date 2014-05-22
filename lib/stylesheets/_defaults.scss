@@ -1,8 +1,8 @@
 // Compass Vertical Rhythm setup
-$base-font-size: 20px;
-$base-line-height: 32px;
-$rhythm-unit: "rem";
-$rem-with-px-fallback: false;
+$base-font-size: 20px !default;
+$base-line-height: 32px !default;
+$rhythm-unit: "rem" !default;
+$rem-with-px-fallback: false !default;
 
 // The type-scale Map contains the whole type scale.
 // Add your own sizes or modify these, they will be available in the type-scale mixin for use.
@@ -38,7 +38,7 @@ $default-type-scale: (
     )
 );
 
-$type-scale: $default-type-scale;
+$type-scale: $default-type-scale !default;
 
 $default-type-weight: (
     thin: 200,
@@ -48,4 +48,4 @@ $default-type-weight: (
     black: 900
 );
 
-$type-weight: $default-type-weight;
+$type-weight: $type-weight: $default-type-weight !default;
