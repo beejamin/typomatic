@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency 'compass', '~>1.0.0.alpha.13'
-  spec.add_dependency 'breakpoint', '~> 1.0.4'
-  spec.add_dependency 'compass-import-once', '~> 2.4.2'
+  spec.add_dependency 'breakpoint', '~> 2.4.2'
+  spec.add_dependency 'compass-import-once', '~> 1.0.4'
 end
