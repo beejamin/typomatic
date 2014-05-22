@@ -1,29 +1,35 @@
 # TypomaticSass
 
-TODO: Write a gem description
+Typomatic is an all-purpose, pre-cooked Sass typographic kit for your daily needs.
 
-## Installation
+Typomatic uses Compass Vertical Rhythm module and Sass Maps to give a flexible solution for handling type scale on a project.
 
-Add this line to your application's Gemfile:
+## Demo
+A demo is available, just download the package and open *index.html* file in your favourite browser.
 
-    gem 'typomatic_sass'
+## Config
+The *_config.scss* file holds the Sass Maps with the type scale and type weight values. Use it to modify the scale to match your project.
 
-And then execute:
+## Mixins
+### type-scale
+The scale is defined in the *$type-scale* Sass Map type sizes defined in the *_config.scss* file.
 
-    $ bundle
+Mixin arguments:
 
-Or install it yourself as:
+    $scale
 
-    $ gem install typomatic_sass
+The scale argument takes a value from the list of sizes (small, base, medium...) defined in the *$type-scale* map.
 
-## Usage
+    $map
 
-TODO: Write usage instructions here
+The map argument takes a map defined in the *$type-scale* map, usefull if you have two different typefaces with different styles.
 
-## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/typomatic_sass/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+### type-weight
+The weights are defined in the *$type-weight* Sass Map type sizes defined in the *_config.scss* file.
+
+Arguments:
+
+    $weight
+
+The weight argument takes a value from the list of weights (light, regular, bold...) defined in the *$type-weight* map.
